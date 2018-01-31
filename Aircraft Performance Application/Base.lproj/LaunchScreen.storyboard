@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,16 +15,92 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emblema_mai" translatesAutoresizingMaskIntoConstraints="NO" id="X5F-eP-T5J">
+                                <rect key="frame" x="427" y="194" width="164" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AIRCRAFT PERFORMANCE CALCULATIONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCa-f2-Qhr">
+                                <rect key="frame" x="185" y="423" width="650" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="sJd-ud-9if"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Разработал: аспирант каф.302 Мельничук Александр Владимирович" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgt-n3-Ztj">
+                                <rect key="frame" x="118" y="505" width="789" height="73"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Научный руководитель: профессор, д.т.н. Судаков Владимир Анатольевич" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z13-rJ-d8i">
+                                <rect key="frame" x="88" y="548" width="848" height="73"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="МОСКОВСКИЙ АВИАЦИОННЫЙ ИНСТИТУТ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3u-sC-0JM">
+                                <rect key="frame" x="248" y="116" width="517" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="IZX-fC-yiS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ПРОТОТИП ПРОГРАММНОГО ПРИЛОЖЕНИЯ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6z-l9-LfB">
+                                <rect key="frame" x="248" y="385" width="528" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="hoB-p8-ffG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2K-dd-EtI">
+                                <rect key="frame" x="159" y="154" width="703" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OAp-aw-dmw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="d2K-dd-EtI" firstAttribute="top" secondItem="p3u-sC-0JM" secondAttribute="bottom" constant="8" symbolic="YES" id="0RT-6r-2Hs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X5F-eP-T5J" secondAttribute="trailing" constant="433" id="BpZ-m3-8O5"/>
+                            <constraint firstItem="p3u-sC-0JM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="96" id="DNm-Bn-dMM"/>
+                            <constraint firstItem="d2K-dd-EtI" firstAttribute="centerX" secondItem="MCa-f2-Qhr" secondAttribute="centerX" id="H5k-7h-hZv"/>
+                            <constraint firstItem="Dgt-n3-Ztj" firstAttribute="top" secondItem="MCa-f2-Qhr" secondAttribute="bottom" constant="43" id="Ot7-7L-F5r"/>
+                            <constraint firstItem="p3u-sC-0JM" firstAttribute="leading" secondItem="z6z-l9-LfB" secondAttribute="leading" id="QZd-6x-vIl"/>
+                            <constraint firstItem="X5F-eP-T5J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="427" id="QgR-Rh-eOT"/>
+                            <constraint firstItem="Z13-rJ-d8i" firstAttribute="top" secondItem="MCa-f2-Qhr" secondAttribute="bottom" constant="86" id="Rhi-bc-rio"/>
+                            <constraint firstItem="MCa-f2-Qhr" firstAttribute="top" secondItem="z6z-l9-LfB" secondAttribute="bottom" constant="8" symbolic="YES" id="VKW-tV-E5O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Z13-rJ-d8i" secondAttribute="bottom" constant="147" id="X3j-Ox-0AC"/>
+                            <constraint firstItem="Dgt-n3-Ztj" firstAttribute="baseline" secondItem="Z13-rJ-d8i" secondAttribute="firstBaseline" id="YCX-hD-e8q"/>
+                            <constraint firstItem="Dgt-n3-Ztj" firstAttribute="centerX" secondItem="Z13-rJ-d8i" secondAttribute="centerX" id="bO2-2x-bd5"/>
+                            <constraint firstItem="z6z-l9-LfB" firstAttribute="top" secondItem="X5F-eP-T5J" secondAttribute="bottom" constant="63" id="crS-sN-5Oj"/>
+                            <constraint firstItem="d2K-dd-EtI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="159" id="dpD-Fk-Slw"/>
+                            <constraint firstItem="z6z-l9-LfB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ff7-Z0-o4g"/>
+                            <constraint firstItem="X5F-eP-T5J" firstAttribute="top" secondItem="d2K-dd-EtI" secondAttribute="bottom" constant="10" id="myg-I9-TG3"/>
+                            <constraint firstItem="z6z-l9-LfB" firstAttribute="centerX" secondItem="Dgt-n3-Ztj" secondAttribute="centerX" id="qvh-hJ-0Ac"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Dgt-n3-Ztj" secondAttribute="bottom" constant="190" id="wzG-se-vlh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="51.5625" y="373.4375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="emblema_mai" width="600" height="578"/>
+    </resources>
 </document>
