@@ -31,6 +31,7 @@
                                 <state key="normal" title="Выбрать" backgroundImage="whiteButton"/>
                                 <connections>
                                     <action selector="aiportButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R13-CG-4Au"/>
+                                    <action selector="aiportButtonPressed:" destination="uaP-db-kSV" eventType="touchUpInside" id="ZP1-jg-xfa"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="КОНФ МЕХАНИЗАЦИИ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIQ-Re-9sr">
@@ -46,6 +47,7 @@
                                 <state key="normal" title="Выбрать" backgroundImage="whiteButton"/>
                                 <connections>
                                     <action selector="fplasButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0fA-Sr-bMu"/>
+                                    <action selector="fplasButtonPressed:" destination="uaP-db-kSV" eventType="touchUpInside" id="UKE-K8-Maa"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="СИСТЕМА КОНДИЦИОН." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q50-JS-YaV">
@@ -61,6 +63,7 @@
                                 <state key="normal" title="Выбрать" backgroundImage="whiteButton"/>
                                 <connections>
                                     <action selector="acButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bes-Uu-8Qr"/>
+                                    <action selector="acButtonPressed:" destination="uaP-db-kSV" eventType="touchUpInside" id="KQa-It-B8c"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="СИСТЕМА АНТИОБЛЕД. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuR-YM-eQ2">
@@ -75,6 +78,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Выбрать" backgroundImage="whiteButton"/>
                                 <connections>
+                                    <action selector="antiiceButtonPressed:" destination="uaP-db-kSV" eventType="touchUpInside" id="LvA-nW-WIY"/>
                                     <action selector="antiiceButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S55-lL-66K"/>
                                 </connections>
                             </button>
@@ -90,6 +94,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Выбрать" backgroundImage="whiteButton"/>
                                 <connections>
+                                    <action selector="runwayButtonPressed:" destination="uaP-db-kSV" eventType="touchUpInside" id="T9c-M8-UZ8"/>
                                     <action selector="runwayButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sQU-U5-oLp"/>
                                 </connections>
                             </button>
@@ -112,6 +117,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Выбрать" backgroundImage="whiteButton"/>
                                 <connections>
+                                    <action selector="runwayconditionButtonPressed:" destination="uaP-db-kSV" eventType="touchUpInside" id="eUN-ZL-nae"/>
                                     <action selector="runwayconditionButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f8S-B5-5QA"/>
                                 </connections>
                             </button>
@@ -197,6 +203,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Выбрать" backgroundImage="whiteButton"/>
                                 <connections>
+                                    <action selector="brakesButtonPressed:" destination="uaP-db-kSV" eventType="touchUpInside" id="gnC-n8-ZrB"/>
                                     <action selector="fplasButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yut-kw-EEj"/>
                                 </connections>
                             </button>
@@ -209,8 +216,8 @@
                         <outlet property="acButton" destination="Rqv-hr-sdy" id="eE0-FF-qO7"/>
                         <outlet property="airportButton" destination="IKf-Q8-XqM" id="JVg-0x-M1M"/>
                         <outlet property="antiiceButton" destination="4F6-Ji-jpW" id="Hov-m1-TcG"/>
+                        <outlet property="brakesButton" destination="r0d-RP-MCA" id="1yo-x8-tzV"/>
                         <outlet property="flapsButton" destination="wJB-dY-DWu" id="RA7-Rx-CxX"/>
-                        <outlet property="revButton" destination="r0d-RP-MCA" id="l2v-Jp-Onj"/>
                         <outlet property="runwayButton" destination="ASv-u5-jRj" id="h1i-ht-Acg"/>
                         <outlet property="runwayconditionButton" destination="7HB-uV-fxr" id="gNc-3B-s16"/>
                     </connections>
